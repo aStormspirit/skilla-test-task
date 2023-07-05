@@ -1,0 +1,9 @@
+.app {
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "side head head head head"
+    "side main main main main"
+    "side main main main main";
+  grid-template-columns: 240px 1fr;
+}

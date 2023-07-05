@@ -1,0 +1,57 @@
+.sidebar {
+  background-color: #091336;
+  grid-area: side;
+  height: 1200px;
+
+  &__logo {
+    height: 80px;
+
+    > img {
+      padding-top: 32px;
+      padding-left: 12px;
+    }
+  }
+
+  &__svg {
+    margin-right: 13px;
+    margin-top: 2px;
+  }
+
+  &__box {
+    font-family: "SF-Pro-Display", "Arial";
+    color: #ffffff99;
+    height: 52px;
+
+    &-wrapper {
+      display: flex;
+      padding-top: 15px;
+      padding-left: 13px;
+    }
+  }
+
+  &__button-box {
+    margin-top: 64px;
+  }
+
+  &__button-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #005ff8;
+    border: #005ff8;
+    font-family: "SF-Pro-Display", "Arial";
+    font-size: 23.68px;
+    line-height: 23.68px;
+    color: #ffffff;
+    border-radius: 4px;
+    height: 52px;
+    width: 200px;
+  }
+}

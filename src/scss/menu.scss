@@ -1,0 +1,112 @@
+.menu {
+  &-wrapper {
+    padding: 20px 80px 0 120px;
+  }
+
+  &__select {
+    display: flex;
+
+    &_type {
+      top: 30px;
+      position: absolute;
+      background-color: #ffffff;
+      padding: 7px 20px 7px 20px;
+      border: 1px solid #eaf0fa;
+      box-shadow: 0px 0px 26px rgba(233, 237, 243, 0.8);
+      border-radius: 4px;
+    }
+
+    &-box {
+      display: flex;
+      align-items: center;
+      margin-left: 36px;
+      position: relative;
+
+      > p {
+        margin-right: 4px;
+        font-family: "SF Pro Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 148%;
+        color: #5e7793;
+      }
+    }
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search {
+    position: relative;
+
+    &-icon {
+      position: absolute;
+    }
+  }
+
+  &__input {
+    padding-left: 28px;
+    border: none;
+    outline: none;
+    background-color: #f5f5f5;
+  }
+
+  &__input:focus {
+    outline-color: #005ff8;
+  }
+
+  &__button {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 48px;
+    width: 145px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 48px;
+
+    &-text {
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 148%;
+      margin: 0;
+    }
+  }
+
+  &__calendar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    > p {
+      margin-left: 8px;
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: #005ff8;
+    }
+
+    > div:first-child {
+      margin-right: 22px;
+    }
+
+    > div:last-child {
+      margin-left: 22px;
+    }
+  }
+}
+
+.top-box {
+  justify-content: end;
+}
+
+.bottom-box {
+  justify-content: space-between;
+}

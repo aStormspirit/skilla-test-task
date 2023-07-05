@@ -1,0 +1,50 @@
+.table-wrapper {
+  padding: 20px 80px 0 120px;
+}
+
+.table {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 5px #e9edf3;
+  border-radius: 8px;
+  padding-left: 40px;
+
+  &__head {
+    > tr {
+      height: 61px;
+
+      > td {
+        font-family: "SF Pro Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        border-bottom: 1px solid #eaf0fa;
+      }
+    }
+  }
+
+  &__body {
+    > tr {
+      height: 65px;
+
+      > td {
+        border-bottom: 1px solid #eaf0fa;
+      }
+    }
+  }
+
+  &__row:hover {
+    background-color: rgba(212, 223, 243, 0.17);
+    cursor: pointer;
+  }
+}
+
+[id^="music"] {
+  width: 360px;
+}
+
+.music__playbutton {
+  margin-left: 12px;
+  margin-right: 8px;
+}

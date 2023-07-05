@@ -1,0 +1,98 @@
+.navbar {
+  background-color: #ffffff;
+  grid-area: head;
+  display: flex;
+  padding-left: 120px;
+  grid-template-columns: 90px 675px 56px 262px 68px;
+  height: 90px;
+  box-shadow: 0px 4px 5px #e9edf3;
+
+  &__text {
+    color: #899cb1;
+    margin: 0;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    margin-left: 40px;
+  }
+
+  &__search {
+    width: 24px;
+    margin-left: 80px;
+  }
+
+  &__vector {
+    width: 12px;
+    margin-left: 4px;
+  }
+
+  &__icon {
+    width: 40px;
+    margin-left: 40px;
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+  }
+
+  &__date {
+    display: flex;
+    align-items: center;
+    line-height: 22.2px;
+    color: #899cb1;
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 148%;
+  }
+
+  &__progress {
+    border-radius: 50px;
+    width: 170px;
+    height: 6px;
+
+    &-value {
+      height: 6px;
+      background-color: green;
+      border-radius: 50px;
+      width: 30px;
+    }
+
+    &-text {
+      margin: 0;
+      font-family: "SF Pro Display";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 148%;
+      margin-bottom: 5px;
+
+      &_green {
+        color: #00a775;
+      }
+
+      &_yellow {
+        color: #ffb800;
+      }
+
+      &_red {
+        color: #ea1a4f;
+      }
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+}
+
+.progress-box {
+  margin-left: 86px;
+  gap: 56px;
+}
