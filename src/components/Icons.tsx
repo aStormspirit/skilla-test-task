@@ -4,7 +4,7 @@ import IconsSVG from "../assets/Icons.svg";
 const Icons: FC<{
   name: string;
   color: string;
-  size: number;
+  size: string;
   className: string;
 }> = ({ name, color, size, className }) => {
   return (
